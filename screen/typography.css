@@ -1,0 +1,1041 @@
+/**
+ * "Yet Another Multicolumn Layout" - YAML CSS Framework
+ *
+ * (en) Uniform design of standard content elements
+ * (de) Einheitliche Standardformatierungen für die wichtigten Inhalts-Elemente
+ *
+ * @copyright       © 2005-2013, Dirk Jesse
+ * @license         CC-BY 2.0 (http://creativecommons.org/licenses/by/2.0/),
+ *                  YAML-CDL (http://www.yaml.de/license.html)
+ * @link            http://www.yaml.de
+ * @package         yaml
+ * @version         4.1.2
+ */
+@media all {
+  /*
+  * @section global typography settings
+  *
+  * vertical rhythm settings (based on em-unit)
+  * -------------------------------------------
+  * basefont-size:  14px (87.5%)
+  * line-height  :  21px (factor: 1.5) */
+  /* (en) reset font size for all elements to standard (16 Pixel) */
+  /* (de) Alle Schriftgrößen auf Standardgröße (16 Pixel) zurücksetzen */
+  html * {
+    font-size: 100%;
+  }
+
+  /**
+  * (en) reset monospaced elements to font size 16px in all browsers
+  * (de) Schriftgröße von monospaced Elemente in allen Browsern auf 16 Pixel setzen
+  *
+  * @see: http://webkit.org/blog/67/strange-medium/
+  */
+  textarea,
+  pre,
+  code,
+  kbd,
+  samp,
+  var,
+  tt {
+    font-family: Consolas, "Lucida Console", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier;
+  }
+
+  /* font-size: 14px; */
+  body {
+    font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+    font-size: 87.5%;
+    color: #444444;
+  }
+
+  /*--- Headings | Überschriften ------------------------------------------------------------------------*/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #161e21;
+    margin: 0;
+  }
+
+  h1 {
+    /* font-size: 48px; */
+    font-size: 342.85714%;
+    line-height: 0.875;
+    margin: 0 0 0.4375em 0;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  }
+
+  h2 {
+    /* font-size: 32px; */
+    font-size: 135%;
+    line-height: -7.687;
+    margin: 0 0 0.65625em 0;
+    color: #FFFFFF;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+  }
+.ym-wrapper .ym-wbox h2 {
+    font-size: 103%;
+    text-align: left;
+}
+.ym-wrapper .ym-wbox h1 {
+    text-align: left;
+
+}
+#nav .ym-wrapper .navbar.navbar-expand-lg.navbar-dark.bg-dark:hover  {
+    color: #EB0206;
+}
+
+
+
+
+  h3 {
+    /* font-size: 24px; */
+    font-size: 171.42857%;
+    line-height: 0.875;
+    margin: 0 0 0.875em 0;
+  }
+
+  h4 {
+    /* font-size: 21px; */
+    font-size: 150%;
+    line-height: 1;
+    margin: 0 0 1em 0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  }
+
+  h5 {
+    /* font-size: 18px; */
+    font-size: 128.57143%;
+    line-height: 1.16667;
+    margin: 0 0 1.16667em 0;
+  }
+
+  h6 {
+    /* font-size: 14px; */
+    font-size: 100%;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  }
+
+  /* --- Lists | Listen  -------------------------------------------------------------------------------- */
+  ul,
+  ol,
+  dl {
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  ul ul {
+    list-style-type: circle;
+    margin-top: 0;
+  }
+
+  ol ol {
+    list-style-type: lower-latin;
+    margin-top: 0;
+  }
+
+  ol ul {
+    list-style-type: circle;
+    margin-top: 0;
+  }
+
+  li {
+    font-size: 100%;
+    line-height: 1.5;
+    margin-left: 1.2em;
+  }
+
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    margin: 0 0 1.5em 0.8em;
+  }
+
+  /* --- general text formatting | Allgemeine Textauszeichnung ------------------------------------------ */
+  p {
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+    text-align: justify;
+  }
+
+  blockquote,
+  cite,
+  q {
+    font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+
+  blockquote {
+    background: transparent;
+    color: #666666;
+    margin: 1.5em 0 0 1.5em;
+  }
+
+  strong,
+  b {
+    font-weight: bold;
+  }
+
+  em,
+  i {
+    font-style: italic;
+    text-align: right;
+  }
+
+  big {
+    /* font-size: 16px; */
+    font-size: 114.28571%;
+    line-height: 1.3125;
+  }
+
+  small {
+    /* font-size: 12px; */
+    font-size: 85.71429%;
+    line-height: 1.75;
+  }
+
+  pre,
+  code,
+  kbd,
+  tt,
+  samp,
+  var {
+    font-size: 100%;
+  }
+
+  pre {
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  pre,
+  code {
+    color: #880000;
+  }
+
+  kbd,
+  samp,
+  var,
+  tt {
+    color: #666666;
+    font-weight: bold;
+  }
+
+  var,
+  dfn {
+    font-style: italic;
+  }
+
+  acronym,
+  abbr {
+    border-bottom: 1px #aaa dotted;
+    font-variant: small-caps;
+    letter-spacing: .07em;
+    cursor: help;
+  }
+
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+
+  sup {
+    top: -0.5em;
+  }
+
+  sub {
+    bottom: -0.25em;
+  }
+
+  mark {
+    background: yellow;
+    color: black;
+  }
+
+  hr {
+    color: #fff;
+    background: transparent;
+    margin: 0 0 0.75em 0;
+    padding: 0 0 0.67857em 0;
+    border: 0;
+    border-bottom: 1px #eeeeee solid;
+  }
+
+  /*--- Links ----------------------------------------------------------------------------------------- */
+  a {
+    color: #4d87c7;
+    background: transparent;
+    text-decoration: none;
+  }
+
+  a:active {
+    outline: none;
+  }
+
+  /* (en) maximum constrast for tab focus - change with great care */
+  /* (en) Maximaler Kontrast für Tab Focus - Ändern Sie diese Regel mit Bedacht */
+  a:hover,
+  a:focus {
+    background-color: #4d87c7;
+    color: white;
+    text-decoration: none;
+  }
+
+  /* --- images ------------------ */
+  img,
+  figure {
+    margin: 0;
+  }
+
+  .flexible {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* IE6 workaround - 2% space for possible borders */
+  * html .flexible {
+    width: 98%;
+  }
+
+  .bordered {
+    margin-bottom: 1.5em;
+    border: 2px #eee solid;
+    border: 2px white solid;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+  }
+
+  /**
+  * ----------------------------------------------------------------------- #
+  *
+  * Generic Content Classes
+  *
+  * (en) standard classes for positioning and highlighting
+  * (de) Standardklassen zur Positionierung und Hervorhebung
+  *
+  * @section content-generic-classes
+  */
+  .highlight {
+    color: #cc3300;
+  }
+
+  .dimmed {
+    color: #888888;
+  }
+
+  .box {
+    border-radius: 0.3em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #888;
+    border-color: rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+    color: #444;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 1.42857em;
+    margin: 0 0 1.5em 0;
+  }
+  .box > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .label {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 1px 6px 2px;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: normal;
+    white-space: nowrap;
+    border-radius: 3px;
+    background: #06C;
+    color: #fff;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .info {
+    background: #f4f4f4;
+  }
+
+  .success {
+    background: #88cc88;
+  }
+
+  .warning {
+    background: #cccc88;
+  }
+
+  .error {
+    background: #cc8888;
+  }
+
+  .float-left {
+    float: left;
+    display: inline;
+    margin: 0 1em 1.5em 0;
+  }
+
+  .float-right {
+    float: right;
+    display: inline;
+    margin: 0 0 1.5em 1em;
+  }
+
+  .center {
+    display: block;
+    text-align: center;
+    margin: 0 auto 1.5em auto;
+  }
+
+  /**
+  * ------------------------------------------------------------------------------------------------- #
+  *
+  * Tables | Tabellen
+  *
+  * (en) Generic classes for table-width and design definition
+  * (de) Generische Klassen für die Tabellenbreite und Gestaltungsvorschriften für Tabellen
+  *
+  * @section content-tables
+  */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #444444;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    margin: 0 0 1.35714em 0;
+  }
+  table.narrow {
+    margin: 0 0 1.42857em 0;
+  }
+  table.narrow th,
+  table.narrow td {
+    padding: 0 0.5em;
+    line-height: 1.42857;
+  }
+  table.fixed {
+    table-layout: fixed;
+  }
+  table.bordertable {
+    border: 1px #ccc solid;
+  }
+  table.bordertable thead th {
+    background: #e0e0e0;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+  }
+  table.bordertable tbody th[scope="row"] {
+    background: #f0f0f0;
+  }
+  table.bordertable tbody th {
+    border-right: 1px solid #ccc;
+  }
+  table.bordertable tbody td {
+    border-right: 1px solid #ccc;
+  }
+
+  caption {
+    font-variant: small-caps;
+  }
+
+  th,
+  td {
+    line-height: 1.5em;
+    vertical-align: top;
+    padding: 0.71429em 0.5em;
+  }
+
+  th *:first-child,
+  td *:first-child {
+    margin-top: 0;
+  }
+
+  th.nowrap,
+  td.nowrap {
+    white-space: nowrap;
+  }
+
+  thead th {
+    text-align: left;
+    color: #000;
+    border-bottom: 2px #000 solid;
+  }
+
+  tbody {
+    /* highlight row on mouse over */
+  }
+  tbody th {
+    text-align: left;
+    border-top: 1px solid #ccc;
+  }
+  tbody td {
+    text-align: left;
+    border-top: 1px solid #ccc;
+  }
+  tbody tr:hover th,
+  tbody tr:hover td {
+    background: #f8f8f8;
+  }
+.ym-g50.ym-gl .ym-gbox-left h5 {
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: x-large;
+}
+.ym-g50.ym-gr .ym-gbox-right h5 {
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: x-large;
+}
+.ym-g50.ym-gl .ym-gbox-left h6 {
+
+}
+#arhiva-izlozbe .exhibition .artist {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.ym-wbox.logovi p h7 {
+    text-align: center;
+}
+.ym-g50.ym-gl .ym-gbox-left h6 {
+}
+
+
+
+
+
+
+
+
+.post .sectionRight.contact {
+    margin-top: 230px;
+    height: 515px;
+    width: 25%;
+	}
+
+	.post .sectionRight.contact h3 {
+		font-size: small;
+		text-align: center;
+	}
+
+	.sectionRight.contact #form1 #comments {
+    width: 500px;
+    margin-bottom: 2px;
+    height: 470px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+	}
+.sectionRight.contact #form1 #name {
+    width: 500px;
+}
+.sectionRight.contact #form1 #email {
+    width: 500px;
+}
+#form1 p #subject {
+    width: 500px;
+}
+
+
+
+/* Base style for exhibitions */
+.exhibition {
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+#form1 #customSubjectContainer label {
+    width: 500px;
+}
+#form1 #customSubjectContainer #customSubject {
+    width: 500px;
+}
+
+
+
+/* Hover effect: slightly brighten and lift */
+.exhibition:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #b2f0f0; /* slightly brighter than search highlight */
+}
+
+/* Optional: style for articles not matched (hidden) remains display:none */
+
+/* Matched items fade-in animation */
+.exhibition.matched {
+  animation: highlightFade 1s ease forwards;
+}
+.ym-wrapper .ym-wbox .sectionRight.contact {
+    text-align: left;
+}
+.ym-g50.ym-gl .ym-gbox-left h5 {
+    font-size: x-large;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-align: left;
+}
+.ym-g50.ym-gl .ym-gbox-left h5 {
+    font-size: x-large;
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+/* Keyframes for fade-in background */
+    
+@keyframes highlightFade {
+  0% {
+    background-color: #d0f0f0; /* initial highlight color */
+  }
+  50% {
+    background-color: #a0e0e0; /* slightly brighter mid-animation */
+  }
+  100% {
+    background-color: #d0f0f0; /* settle back to normal highlight */
+  }
+}
+
+/* === NAVBAR CUSTOMIZATION === */
+
+/* Add spacing between navbar items */
+.navbar-nav .nav-item {
+  margin-right: 1rem; /* Increase or decrease as needed */  /* Adjust spacing between items */
+}
+
+/* Optional: also separate the form from the nav items */
+.navbar .form-inline {
+  margin-left: 2rem; /* pushes the form a bit to the right */
+}
+
+/* Extra vertical padding between nav items when collapsed */
+@media (max-width: 992px) { /* adjust for your breakpoint */
+  .navbar-nav .nav-item {
+    margin-bottom: 0.5rem; /* adds space between links vertically */
+
+  }
+
+  /* Optional: add a little breathing room around the collapsed menu */
+  .navbar-collapse {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Keep the form neatly spaced in collapsed view */
+  .navbar .form-inline {
+    margin-top: 0.75rem;
+  }
+}
+/* Change hover color for navbar links */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff !important; /* bright turquoise, for example */
+  text-decoration: none;     /* removes underline if any */
+}
+
+/* Optional: add a smooth transition */
+.navbar-dark .navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+
+/* Reduce overall navbar height */
+.navbar {
+  padding-top: 0.3rem !important;  /* default is ~0.5–1rem */
+  padding-bottom: 0.3rem !important;
+}
+
+
+/* Tighten spacing inside links */
+.navbar .nav-link {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+/* Highlight parent dropdown link when dropdown is open */
+.navbar-dark .navbar-nav .nav-item.dropdown.show > .nav-link {
+    background-color: #6c757d; /* subtle grey highlight */
+    color: #ffffff !important; /* keep text readable */
+    border-radius: 4px;        /* optional, nice rounded effect */
+    transition: background-color 0.3s ease;
+}
+
+/* Optional: keep hover color consistent with your design */
+.navbar-dark .navbar-nav .nav-item.dropdown .nav-link:hover {
+    background-color: #5a6268; /* slightly darker grey on hover */
+    color: #ffffff !important;
+}
+
+/* === Navbar links highlight for active / clicked / open === */
+
+/* All links: hover effect */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+  background-color: #5a6268; /* subtle grey on hover */
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* All links: active / clicked */
+.navbar-dark .navbar-nav .nav-link:active,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link.current {
+  background-color: #6c757d; /* slightly darker grey to show active link */
+  color: #ffffff !important;
+  border-radius: 4px;
+}
+
+/* Dropdown parent links: highlight when dropdown is open */
+.navbar-dark .navbar-nav .nav-item.dropdown.show > .nav-link {
+  background-color: #6c757d; /* active/open highlight */
+  color: #ffffff !important;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Optional: smooth hover for dropdown parents */
+.navbar-dark .navbar-nav .nav-item.dropdown .nav-link:hover {
+  background-color: #5a6268;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav .nav-link {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+/* Change dropdown item color on hover */
+.navbar-dark .dropdown-menu .dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: #5a6268 !important; /* fixed double # */
+}
+
+/* Change dropdown item color when active / clicked */
+.navbar-dark .dropdown-menu .dropdown-item:active,
+.navbar-dark .dropdown-menu .dropdown-item:focus {
+  color: #ffffff !important;
+  background-color: #5485c7 !important; /* fixed double # */
+}
+
+/* NEW — keep parent category highlighted when one of its pages is active */
+.navbar-dark .nav-item.dropdown.active > .nav-link {
+  background-color: #6c757d !important;
+  color: #ffffff !important;
+  border-radius: 4px;
+}
+
+textarea.formStyle {
+  text-align: left;        /* ensures caret starts at left */
+  vertical-align: top;     /* aligns text to the top */
+  padding: 0.5rem;         /* keep comfortable padding */
+  line-height: 1.5;
+  resize: vertical;        /* optional: allow resize only vertically */
+  overflow-y: auto;        /* keeps scrollbar consistent */
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #444;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.back-to-top.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.back-to-top:hover {
+    background: #000;
+}
+
+
+/* --- GALLERY LAYOUT --- */
+.slide-gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* --- LARGE SLIDER WRAPPER --- */
+.large-slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+
+}
+
+/* --- ARROWS --- */
+.arrow {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 26px;
+  border-radius: 4px;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+.arrow:hover {
+  opacity: 1;
+}
+
+/* --- LARGE SLIDE AREA --- */
+.large-slide-area {
+  width: 600px;
+  height: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+     cursor: pointer; /* show hand cursor on large slide */
+    
+}
+
+/* --- UNIVERSAL SLIDE FRAME STYLE --- */
+.slide-mount {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  border-radius: 8px;
+  padding: 22px;
+  box-shadow:
+    0 8px 20px rgba(0,0,0,0.35),
+    inset 0 0 20px rgba(0,0,0,0.18);
+  position: relative;
+}
+
+.slide-mount::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  border: 1px solid rgba(0,0,0,0.18);
+  border-radius: 4px;
+}
+
+.slide-window {
+  width: 100%;
+  height: 0;
+  padding-bottom: 66.6%; /* 3:2 aspect ratio */
+  overflow: hidden;
+  background: #000;
+  border-radius: 3px;
+  position: relative;
+}
+
+.slide-window img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+/* --- THUMBNAIL STRIP --- */
+.thumbnail-strip {
+  display: flex;
+  overflow-x: auto;
+  justify-content: flex-start; /* <-- FIX */
+  gap: 20px;
+  padding: 20px;
+}
+
+.thumbnail-strip::-webkit-scrollbar {
+  height: 8px;
+}
+
+.thumbnail-strip::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.thumbnail {
+  width: 150px;
+  height: 130px;
+  cursor: pointer;
+  flex: 0 0 auto;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+}
+
+.thumbnail.active {
+  opacity: 1;
+  transform: scale(1.06);
+}
+/* --- LIGHTBOX FULLSCREEN --- */
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.92);
+  backdrop-filter: blur(6px);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.lightbox-img {
+  max-width: 700px;
+  max-height: 468px;
+  box-shadow: 0 0 25px rgba(255,255,255,0.3);
+  border-radius: 6px;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  font-size: 45px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.lightbox-arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  transform: translateY(-50%);
+  opacity: 0.8;
+}
+
+.lightbox-arrow:hover {
+  opacity: 1;
+}
+
+.lightbox-arrow.left { left: 40px; }
+.lightbox-arrow.right { right: 40px; }
+
+/* Highlight active large slide */
+.large-slide-area .slide-mount {
+  transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+/* Add light blue border / glow when active */
+.large-slide-area .slide-mount.active {
+  border: 3px solid #4da6ff; /* light blue border */
+  box-shadow: 0 0 20px rgba(77, 166, 255, 0.5); /* subtle glow */
+}
+
+/* Active thumbnail highlight */
+.thumbnail.active {
+  opacity: 1;
+  transform: scale(1.06);
+  border: 3px solid #4da6ff;  /* light blue border */
+  box-shadow: 0 0 10px rgba(77, 166, 255, 0.5); /* subtle glow */
+  border-radius: 4px;
+}
+
+
+
+
+/* Shrink search bar */
+#searchInput {
+    width: 155px !important;
+}
+
+/* Compact spacing for inline form elements */
+.navbar .form-inline .form-control,
+.navbar .form-inline .btn {
+    margin-right: 6px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+/* Donate button styling */
+.donate-btn img {
+    height: 45px;
+    width: auto;
+    display: block;
+}
+
+/* Perfect vertical alignment */
+.donate-btn {
+    display: flex;
+    align-items: center;
+}
+
+/* Reduce spacing between nav links */
+.navbar-nav .nav-item {
+  margin-right: 0.4rem !important;
+}
+
+/* Move search form closer to the nav items */
+.navbar .form-inline {
+  margin-left: 0.5rem !important;
+}
+
+/* Reduce internal spacing inside search form */
+#nav .form-inline .form-control,
+#nav .form-inline .btn {
+  margin-right: 0.3rem !important;
+}

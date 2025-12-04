@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CVU - BATANA &ndash; Foto klub - galerija</title>
+
+    <!-- Mobile viewport optimisation -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- (en) Add your meta data here -->
+	<!-- (de) Fuegen Sie hier ihre Meta-Daten ein -->
+
+	<link href="./css/flexible-grids.css" rel="stylesheet" type="text/css"/>
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+    <link href="css/baguetteBox.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+		body {
+			background-image: url(#);
+			margin: 0;
+		}
+
+		
+
+		
+		.gallery {
+			text-align: center;
+		}
+
+		.content {
+			max-width: 1160px;
+			margin-top: 100px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: auto;
+
+		}
+
+		.gallery:after {
+			content: '';
+			display: block;
+			height: 2px;
+			margin: .5em 0 1.4em;
+
+		}
+
+		.gallery img {
+
+			height: 100%;
+            width: auto;
+		}
+
+		.gallery a {
+
+			margin-bottom: 30px;
+			transition: 0.2s ease-in-out;
+		}
+
+		.gallery a:hover {
+			transform: scale(1.05);
+			box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+		}
+
+		.gallery a {
+			width: px;
+			height: 180px;
+			display: inline-block;
+			overflow: hidden;
+			margin: 4px 6px;
+			box-shadow: 0 0 4px -1px #000;
+
+		}
+
+	</style>
+	<!--[if lte IE 7]>
+	<link href="../yaml/core/iehacks.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+	<script src="../lib/html5shiv/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+
+<header>
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+		  <h1> <img src="img/logovi/Batana_SIGN-transperet.png" width="100" height="100" alt="batanalogo"/> <strong>CVU - BATANA</strong></h1>
+		  <h2>Centar  vizualnih  umjetnosti  „Batana“ Rovinj
+		    &nbsp;</h2>
+		  <h2>Centro arti visive  „Batana“ Rovigno</h2>
+      </div>
+	</div>
+</header>
+	
+<nav id="nav">
+  <div class="ym-wrapper">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <!-- Mobile toggle button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent1"
+              aria-controls="navbarSupportedContent1"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar container -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+        <!-- LEFT SIDE MENU -->
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="flexible-grid2testdonacije.html">Novosti</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">O nama</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="150 rovinjke fotografije.html">150 godina rovinjske fotografije</a>
+              <a class="dropdown-item" href="uprava.html">Uprava</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="partneri.html">Partneri</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Arhiva</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="arhiva 2025.html">Arhiva 2025</a>
+              <a class="dropdown-item" href="arhiva 2024.html">Arhiva 2024</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown3"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Aktivnosti</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="fotoizleti.html">Foto izleti</a>
+              <a class="dropdown-item" href="radionice.html">Radionice</a>
+              <a class="dropdown-item active" href="predavanja.html">Predavanja</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://cvu-batana-galerija.likesyou.org/">Forum</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+          </li>
+
+        </ul>
+
+        <!-- RIGHT SIDE: SEARCH + ARHIVA + DONATE -->
+        <form class="form-inline my-2 my-lg-0" onsubmit="event.preventDefault(); handleSearch();">
+
+          <input id="searchInput" class="form-control mr-2"
+                 type="search" placeholder="Pretraži naziv izložbe" aria-label="Pretraži">
+
+          <button class="btn btn-outline-success mr-2" type="submit">
+            Pretraži
+          </button>
+
+          <a href="arhiva 2025.html" class="btn btn-outline-primary mr-2">
+            Arhiva autorskih izložbi 2025
+          </a>
+
+          <!-- Donate button -->
+          <a href="donacije.html" class="donate-btn">
+            <img src="img/PayPal donacijeHR2.png" alt="Doniraj">
+          </a>
+
+        </form>
+
+      </div>
+    </nav>
+
+  </div>
+</nav>
+<main>
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+			
+	<section class="ym-grid linearize-level-2">
+        
+          <div class="baguetteBoxOne gallery">
+
+			<h3>&nbsp;</h3>
+			<h3>Dan Batane - Projekcija dijapozitiva Izrael/Egipat</h3>
+			<br>
+
+              <p>Putovanje započinje sa Izraelom u urbanom dijelu zaintrigiravši ga svojim kontrastom prikaza ljudi posvećenih tradidiciji i običnih ljudi koji obavljaju svakodnevne poslove u kupovini, na tržnici, u šetnji.
+
+Militantnost Izraela nam je poznata iz povjesti zbog nemirnog i u okruženju nestabilnog područja  ali Zorana ipak iznenađuje brojnost žena u vojnoj uniformi koje zatiče na ulicama kojima se kreće, dok fotografira svoje motive. Dojmila su ga se i djeca, koja su na nekoj paradi ili predstavljanju vojnog naoružanja, to naoružanje doživljavala kao igraćke, samouvjereno i bez straha.</p>
+              
+                  <p>
+Slijedi priča  o Mrtvom moru. Mrtvo more je slano jezero koje leži na -400 metara nadmorske visine i nalazi se u pustinji iz kojega voda nigdje ne istječe, samo isparava  a jedinu vodu dobiva od rijeke Jordan.
+
+Voda dotiće svake godine  sve manje zbog preeksploatacije rijeke, pa nivo jezera u prosjeku stalno opada i zbog toga joj salimitet stalno raste. Mrtvo more je jedno je od najslanijih mora na svijetu, salinitet je 33% . U usporedbi sa našim Jadranom koje ima 3 %  to je deset puta slanije.</p>
+              
+               <p>
+Vidjeli smo  lijepo formirane kristale u vodi koji su na nekih 100 metara od obale i koje je Zoran uspio fotografirati ali koji su vrlo oštri i ako se porežete, u trenu, u roku od 2 sekunde  rana vam zabijeli i naraste i izgleda kao  kao da se zagnojila, vjerojatno zbog velike koncenracije soli . Danas se, kaže, ti kristali rijeđe vide uz obalu zbog stalnog ispiranja slatkom vodom (tuširanje i slični razlozi). Sol je nekako masna i slanija od naše soli jer sadrži i neke minerale. U moru ne možete roniti nikako,možete  samo plutati i a nemoguće je potonuti..</p>
+              
+                             <p>
+Dalje nas priča vodi zapadnije od Mrtvog mora u nacionalni park En Gedi koji je prebogat izvorima i sa bujnom vegetacijom . Čuli smo priču o dvadesetak leoparda koji žive u Aziji od kojih četiri, pet žive u ovom nacionalnom parku  i doznali kako postupiti ako se slučajno susretnete sa njima.Uupozorenja  su zapisana na svim obavjesnim tablama, pa ti šeći okolo sam. Uglavnom piše da ih  ne provocirate, a ako vam je nešto sumljivo bacajte kamenje. Otišao je Zoran vidjeti te spilje u stijenama gdje navodno žive leopardi i satima osmatrao ali ništa nije uspio zabilježiti. Dobro se je bio osigurao i ponio  sa sobom  kamenje (po uputama), ali ništa od susreta.</p>
+              
+                                          <p>
+Susrete je zato imao sa ljudima za koje kaže da su gostoljubivi i prijazni ali da se svi ne vole fotografirati. Stalno susreće i djecu od kojih je naučio riječ bakšiš jer stalno traže od turista  sitnog novca. Bio je i na njihovom buvljaku, tržnici na otvorenom gdje ima svega, i hrane i robe i sve je na prvi pogled neugledno,prljavo i mada ne djeluje čisto  to je definitivno pravo živopisno mjesto za lovce na dobru fotografiju. Mogli smo tako vidjeti majke kako presvlače bebe na podu i trgovce koji satima prodaju ne zna se što, jer nitko od njih ništa ne kopuje. Kad se prodaje/kupuje zlato onda se to nastoji obaviti skrivečki i na brzinu a hijearhija i status kod muškaraca se uspostavlja upotrebom engleskog štofa koje nije važno kako je skrojeno koliko je važno da ga imaš i da je englesko.</p>
+              
+                                     <p>
+Pitali smo ga na kraju  da li je imao priliku vidjeti  kišu kako pada, rekao je da ju je nemoguće vidjeti  prije desetog mjeseca, ali da znaju  imati pustinjske oluje koje im mogu ljeti zadati probleme. Za Jeruzalem koji je ipak na 700 m nadsmorske visine kaže da nije neobično zimi vidjeti ga pod snijegom.
+
+
+Pitali smo ga i zašto se odlučio da projekcija ide preko dijapozitiva. Imao je, kaže, prezentaciju i izložbe od skeniranih dijapozitiva ali  nije bio zadovoljan kvalitetom pa se vratio klasici, na čemu mu zahvaljujemo jer je projekcija bila vrhunska.</p>
+              
+            
+              
+              <p> Autor teksta i fotografija: <em>Gordan Ukić</em></p> 
+              
+              
+          
+   <div class="slide-gallery">
+
+  <!-- LARGE SLIDER -->
+  <div class="large-slider-wrapper">
+    <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+
+    <div class="large-slide-area" id="largeSlideArea"></div>
+
+    <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+  </div>
+
+  <!-- SMALL THUMBNAILS -->
+  <div class="thumbnail-strip" id="thumbnailStrip"></div>
+
+</div>
+
+<!-- 🌟 LIGHTBOX POPUP -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+
+  <img id="lightboxImage" class="lightbox-img" alt="Lightbox image">
+
+  <button class="lightbox-arrow left" onclick="event.stopPropagation(); prevSlide(true)">&#10094;</button>
+  <button class="lightbox-arrow right" onclick="event.stopPropagation(); nextSlide(true)">&#10095;</button>
+</div>
+
+
+
+              
+              
+              
+             
+             
+              
+              
+               
+        </div>
+							
+							
+        
+        
+   
+						</section>
+            
+            
+        
+		  
+	  </div>
+  </div>
+    
+    
+      
+    
+</main>
+	
+    <script>
+		window.onload = function() {
+			baguetteBox.run('.baguetteBoxOne');
+			baguetteBox.run('.baguetteBoxTwo');
+			baguetteBox.run('.baguetteBoxThree', {
+				animation: 'fadeIn',
+				noScrollbars: true
+			});
+			baguetteBox.run('.baguetteBoxFour', {
+				buttons: false
+			});
+			baguetteBox.run('.baguetteBoxFive', {
+				captions: function(element) {
+					return element.getElementsByTagName('img')[0].alt;
+				}
+			});
+
+			if (typeof oldIE === 'undefined' && Object.keys) {
+				hljs.initHighlighting();
+			}
+
+			var year = document.getElementById('year');
+			year.innerText = new Date().getFullYear();
+		};
+
+	</script>
+	
+	<script>baguetteBox.run('.baguetteBoxFive', {
+    captions: function(element) {
+        return element.getElementsByTagName('img')[0].alt;
+    }
+}); </script>
+	
+	<script>
+function handleSearch() {
+    const query = document.getElementById("searchInput").value.trim().toLowerCase();
+
+    if (!query) {
+        alert("Molimo unesite ime autora ili naziv izložbe za pretraživanje.");
+        return;
+    }
+
+    /* ==========================
+       LISTS OF KEYWORDS PER YEAR
+       (Edit these for your content!)
+    =========================== */
+
+    const arhiva2025_keywords = [
+        "kruno", "sudec", "kruno sudec", "istarsko sazvježđe", "karmen", "orlić", "karmen orlić", "denis", "gržetić", "denis gržetić", "fotografija i osjetilna prisutnost", "marina", "benković", "homecoming", "burning man"
+    ];
+
+    const arhiva2024_keywords = [
+        "kiki", "naslov izložbe", "proton", "naslov izložbe2", "mala", "mali", "naslo izložbe3" 
+    ];
+
+    /* ==========================
+       CHECK MATCH & REDIRECT
+    =========================== */
+
+    // Look in 2025 first
+    if (arhiva2025_keywords.some(k => query.includes(k))) {
+        window.location.href = "arhiva 2025.html?search=" + encodeURIComponent(query);
+        return;
+    }
+
+    // Look in 2024
+    if (arhiva2024_keywords.some(k => query.includes(k))) {
+        window.location.href = "arhiva 2024.html?search=" + encodeURIComponent(query);
+        return;
+    }
+
+    /* ==========================
+       NOTHING FOUND
+    =========================== */
+
+    alert("Nema rezultata za: " + query);
+}
+</script>
+
+    
+    
+<footer>
+	<div  class="ym-wrapper">
+		<div class="ym-wbox">
+			<p>© 2025 - CVU Batana - Foto klub <br> 
+				
+			
+			Urednik i admin web stranice: <a href="https://kristijanbancic.github.io/Still-Photographer/"><em>Kristijan Bančić </em></a>
+            <br>
+Moderator: Ermano Bančić</p>
+				<br>
+            <p></p>
+				Layout is based on <a href="http://www.yaml.de">YAML<br></a>
+
+  
+
+	  </div>
+	</div>
+</footer>
+
+<script>
+const images = [
+  "img/slide1.jpg",
+  "img/slide2.jpg",
+  "img/slide3.jpg",
+  "img/slide4.jpg",
+  "img/slide5.jpg",
+  "img/slide6.jpg",
+  "img/slide7.jpg",
+  "img/slide8.jpg",
+  "img/slide9.jpg",
+  "img/slide10.jpg",
+  "img/slide11.jpg",
+  "img/slide12.jpg",
+  "img/slide13.jpg",
+  "img/slide14.jpg",
+  "img/slide15.jpg",
+  "img/slide16.jpg",
+  "img/slide17.jpg",
+  "img/slide18.jpg",
+  "img/slide19.jpg",
+  "img/slide20.jpg",
+  "img/slide21.jpg",
+  "img/slide22.jpg",
+  "img/slide23.jpg",
+  "img/slide24.jpg",
+  "img/slide25.jpg",
+  "img/slide26.jpg",
+  "img/slide27.jpg",
+  "img/slide28.jpg",
+  "img/slide29.jpg",
+  "img/slide30.jpg",
+  "img/slide31.jpg",
+  "img/slide32.jpg",
+  "img/slide33.jpg",
+  "img/slide34.jpg",
+  "img/slide35.jpg"
+];
+
+let current = 0;
+
+/* -------------------------
+     RENDER LARGE SLIDE
+--------------------------*/
+function renderLargeSlide() {
+  const largeArea = document.getElementById("largeSlideArea");
+
+  largeArea.innerHTML = `
+    <div class="dia-frame" onclick="openLightbox(${current})">
+      <div class="slide-window">
+        <img src="${images[current]}">
+      </div>
+    </div>
+  `;
+
+  updateThumbnails();
+}
+
+/* -------------------------
+     UPDATE THUMBNAILS
+--------------------------*/
+function updateThumbnails() {
+  const strip = document.getElementById("thumbnailStrip");
+
+  strip.innerHTML = images.map((src, index) => `
+    <div class="thumbnail ${index === current ? "active" : ""}"
+         onclick="selectThumbnail(${index})">
+      <div class="dia-frame">
+        <div class="slide-window">
+          <img src="${src}">
+        </div>
+      </div>
+    </div>
+  `).join("");
+
+  setTimeout(scrollActiveThumbIntoView, 50);
+}
+
+function selectThumbnail(index) {
+  current = index;
+  renderLargeSlide();
+}
+
+/* -------------------------
+     SCROLL CENTER
+--------------------------*/
+function scrollActiveThumbIntoView() {
+  const strip = document.getElementById("thumbnailStrip");
+  const activeThumb = strip.querySelector(".thumbnail.active");
+  if (!activeThumb) return;
+
+  const stripRect = strip.getBoundingClientRect();
+  const thumbRect = activeThumb.getBoundingClientRect();
+  const offset =
+    thumbRect.left + thumbRect.width / 2 -
+    (stripRect.left + stripRect.width / 2);
+
+  strip.scrollLeft += offset;
+}
+
+/* -------------------------
+     NAVIGATION
+--------------------------*/
+function nextSlide(lightboxOpen = false) {
+  current = (current + 1) % images.length;
+  renderLargeSlide();
+  if (lightboxOpen) updateLightbox();
+}
+
+function prevSlide(lightboxOpen = false) {
+  current = (current - 1 + images.length) % images.length;
+  renderLargeSlide();
+  if (lightboxOpen) updateLightbox();
+}
+
+/* -------------------------
+     LIGHTBOX
+--------------------------*/
+function openLightbox() {
+  const lightbox = document.getElementById("lightbox");
+  const img = document.getElementById("lightboxImage");
+
+  img.src = images[current];
+  lightbox.style.display = "flex";
+}
+
+function updateLightbox() {
+  document.getElementById("lightboxImage").src = images[current];
+}
+
+function closeLightbox() {
+  document.getElementById("lightbox").style.display = "none";
+}
+
+/* -------------------------
+     KEYBOARD SUPPORT
+--------------------------*/
+document.addEventListener("keydown", function(e) {
+  const lb = document.getElementById("lightbox");
+
+  if (lb.style.display === "flex") {
+    if (e.key === "ArrowRight") nextSlide(true);
+    if (e.key === "ArrowLeft") prevSlide(true);
+    if (e.key === "Escape") closeLightbox();
+  } else {
+    if (e.key === "ArrowRight") nextSlide();
+    if (e.key === "ArrowLeft") prevSlide();
+  }
+});
+
+/* Init gallery */
+renderLargeSlide();
+</script>
+
+
+
+
+
+
+<!-- Lightbox scripts -->
+	<script src="js/baguetteBox.js" async></script>
+
+<!-- full skip link functionality in webkit browsers -->
+<script src="../yaml/core/js/yaml-focusfix.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

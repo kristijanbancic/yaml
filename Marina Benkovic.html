@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CVU - BATANA &ndash; Foto klub - galerija</title>
+
+    <!-- Mobile viewport optimisation -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- (en) Add your meta data here -->
+	<!-- (de) Fuegen Sie hier ihre Meta-Daten ein -->
+
+	<link href="./css/flexible-grids.css" rel="stylesheet" type="text/css"/>
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+    <link href="css/baguetteBox.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+		body {
+			background-image: url(#);
+			margin: 0;
+		}
+
+		
+		
+		.gallery {
+			text-align: center;
+            
+		}
+
+		.content {
+			max-width: 1600px;
+			margin-top: 100px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: auto;
+
+		}
+
+		.gallery:after {
+			content: '';
+			display: block;
+			height: 2px;
+			margin: .5em 0 1.4em;
+
+		}
+
+		.gallery img {
+            
+
+			height: 100%;
+            width: auto;
+		}
+
+		.gallery a {
+            
+            
+
+			margin-bottom: 30px;
+			transition: 0.2s ease-in-out;
+		}
+
+		.gallery a:hover {
+			transform: scale(1.05);
+			box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+		}
+
+		.gallery a {
+			width: px;
+			height: 250px;
+			display: inline-block;
+			overflow: hidden;
+			margin: 4px 6px;
+			box-shadow: 0 0 4px -1px #000;
+
+		}
+    </style>
+	<!--[if lte IE 7]>
+	<link href="../yaml/core/iehacks.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+
+
+	<!--[if lt IE 9]>
+	<script src="../lib/html5shiv/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+
+<header>
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+		  <h1> <img src="img/logovi/Batana_SIGN-transperet.png" width="100" height="100" alt="batanalogo"/> <strong>CVU - BATANA</strong></h1>
+		  <h2>Centar  vizualnih  umjetnosti  „Batana“ Rovinj
+		    &nbsp;</h2>
+		  <h2>Centro arti visive  „Batana“ Rovigno</h2>
+      </div>
+	</div>
+</header>
+	
+<nav id="nav">
+  <div class="ym-wrapper">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <!-- Mobile toggle button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent1"
+              aria-controls="navbarSupportedContent1"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar container -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+        <!-- LEFT SIDE MENU -->
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="flexible-grid2testdonacije.html">Novosti</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">O nama</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="150 rovinjke fotografije.html">150 godina rovinjske fotografije</a>
+              <a class="dropdown-item" href="uprava.html">Uprava</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="partneri.html">Partneri</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown2"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Arhiva</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item active" href="arhiva 2025.html">Arhiva 2025</a>
+              <a class="dropdown-item" href="arhiva 2024.html">Arhiva 2024</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Aktivnosti</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="fotoizleti.html">Foto izleti</a>
+              <a class="dropdown-item" href="radionice.html">Radionice</a>
+              <a class="dropdown-item" href="predavanja.html">Predavanja</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://cvu-batana-galerija.likesyou.org/">Forum</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+          </li>
+
+        </ul>
+
+        <!-- RIGHT SIDE: SEARCH + ARHIVA + DONATE -->
+        <form class="form-inline my-2 my-lg-0" onsubmit="event.preventDefault(); handleSearch();">
+
+          <input id="searchInput" class="form-control mr-2"
+                 type="search" placeholder="Pretraži naziv izložbe" aria-label="Pretraži">
+
+          <button class="btn btn-outline-success mr-2" type="submit">
+            Pretraži
+          </button>
+
+          <a href="arhiva 2025.html" class="btn btn-outline-primary mr-2">
+            Arhiva autorskih izložbi 2025
+          </a>
+
+          <!-- Donate button -->
+          <a href="donacije.html" class="donate-btn">
+            <img src="img/PayPal donacijeHR2.png" alt="Doniraj">
+          </a>
+
+        </form>
+
+      </div>
+    </nav>
+
+  </div>
+
+</nav>
+	
+<main>
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+			
+			
+			
+		  <img src="img/Arhiva 20025/Marina Benković/naslovna homecoming.jpg" alt="" width="800" class="float-right bordered rounded img-fluid"/>
+			
+		  <h4>HOMECOMING <br>
+ 
+									  <br>
+</h4>
+			
+		  <article id="full article1"> 
+			  
+<p>Pustinja, sunce i postapokaliptične scene filma Mad Max 3 Georgea Millera. No nije baš tako. Radi se o fotografijama koje je Marina Benković snimila na festivalu koji je vrh svjetske elektronske scene, Burning Man u pustinji Black Rock u Nevadi. Mješavina muzike, ali i drugih umjetnosti, od skulpture, slikarstva pa sve do mode, načina odijevanja, originalnih načina transporta čine ga apsolutno jedinstvenim.</p>
+			  
+ <p>Benković fotografirajući festival nije upala u zamku banalnosti i hiper škljocanja fotografija kojima su prepuni Instagram profili posjetitelja samog festivala, tih "čudnih ljudi", nego je izvukla na površinu emociju istog, od otkačenosti osoba, do potpune vedrine i mira u jutarnjim atmosferama. Ljudima koji nisu upućeni u sam događaj možda će samo mjesto i skulpture koje su izložene izgledati i kičasto, no istina je da je zapravo kultno mjesto gdje priliku dobiju važni arhitekti i umjetnici iz cijelog svijeta. Sa svojim ogromnim instalacijama pretvaraju mjesto u magiju.</p>
+              
+<p>Na fotografijama prevladavaju ljubičasto-plavi, roza i žuti tonovi koji smiruju, stvara romantični prikaz pustinje u pejzažu neke druge planete. Na prvi pogled fotografije bi trebale biti reporterskog karaktera, no to one nisu. Potpuno ravana pustinja splaninau dalekoj pozadini izgleda čarobno, skoro pa nestvarno. Svaka fotografija priča priču za sebe, i takva fotografija može biti samostalnana zidu, kao i uklopljena u izložbu kao što je ova u Rovinju.</p>
+			  
+<p>U monoštvu fotografija snimljenih u godinama postojanja samog festivala Marina je s ovom serijom ostvarila rijetko viđene kadrove, čak i kod drugih profesionalnih fotografa koji pristupaju događaju kao što je event fotografi a ne "storytelleri", a marina je upravo to, priča priču iz svog kuta.</p>
+			  
+
+<p> Autor teksta: <em>Đani Celija</em></p> 
+               
+            </article>
+              
+       
+</div>  
+  </div>
+  
+        
+
+</main>
+    
+      <!-- Novi dio članka -->
+    <main>
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+			
+			
+			
+<img src="img/Arhiva 20025/Marina Benković/naslovna homecoming2.jpg" alt="" width="350" height="450" class="float-right bordered rounded img-fluid"/>
+			
+<h4>Burning Man <br>
+ 
+									  <br>
+</h4>
+			
+		  <article>
+			  
+			  <p>U svom dosadašnjem radu, fotografkinja Marina Benković njegovala je minimalistički stil prikazivanja bezvremenih krajolika čistih linija koji "izgledaju poput filmskih isječaka ili setova za grandiozne scne koje se tek trebaju dogoditi. Ono što njene fotografije čini uzbudljivima (osim same ideje putovanja na uslikana mjesta), jest potencijal onoga što bi se na njimamoglo odigrati." Boravkom na festivalu Burnning Man u pustinji Black Rock (Nevada, SAD), autorica je napravila puni krug u svom fotografskom izražavanju  - ogoljeni pejzaži sada su postali kulisa za spomenute dojmljive, oniričke scene čiji su puni potencijal teško mogao zamisliti. Bogati tonovi plave, zlatne, ružičaste i ljubičaste boje, posebno izraženi u zoru i sumrak, fotografijama daju specifičnu mekoću koja potiče imaginaiju i oblikuje atmosferične kompozicije.</p>
+              
+              <p>Fokus se u ovoj seriji prenosi sa pejzaža na fluidne i nadrealne prizore umjetničkih instalacija i silueta "Burnera" u nesvakidašnjim odjevnim kombinacijama na neobičnim prijevoznim sredstvima, nazirući se poput fatamorgane kroz pustinjski pjesak koji otežava svaku vizualnu orijentaciju i preciznost. Snovite fotografije, nerijetko izvan fokusa, formom i načinom izvedbeu potpunosti odgovaraju temi utopijskog ekspacizma Burning Mana, festivala koji spaja sve velike Marinine ljubavi: umjetnost, pustinju, planine, glazbu i istomišljenike avanturiste koji se igraju na tankoj liniji između kaosa i reda, zabave i opasnosti, slobode izražavanja i snažnog osjećaja za zajedništvo.  </p>
+              
+		      
+	
+<p> Autor teksta: <em>Bruna Kocijan</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h6><strong>Biografija: Marina <em>Benković</em></strong><img src="img/Arhiva 20025/Marina Benković/Marina Benkovic.jpg" alt="" width="248" height="248" class="float-left bordered"/></h6>
+              <p>Putnik i fotografkinja koja bilježi snimke bezvremenskih krajolika i ljudi koji prkose ograničenom prostranstvu kojem smo svi izloženi.  </p>
+<p>Marina Benković rođena je u Labinu, a prije pronalaska stalne adrese u Zagrebu, živjela je u raznim dijelovima svijeta: od SAD-a, Francuske, do Italije gdje je studirala na Tršćanskom fakultetu za prevoditelje i tumače. Već 15 godina radi kao freelance turistički pratitelj, pa je najveći dio vremena na putovanjima, savršenom okruženju za njen istraživački duh i neizmjernu ljubav prema impresivnim krajolicima. Njezine fotografije nastaju kao osobni vizualni dnevnik – kontemplativni prikaz prostora i tihe prisutnosti ljudi u njima.</p>
+              
+              <p>Ljubav prema fotografiji razvijala je kroz formalno i neformalno obrazovanje: završila je intenzivni online tečaj Professional Photography Course pri New York Institute of Photography, te usavršavala vizualno pripovijedanje na tečaju Photographic Storytelling s Alecom Sothom (Magnum Photos), kao i Business of Photography s Chrisom Burkardom. Pohađala je školu umjetničke fotografije Drugi Kadar, gdje su njezini završni radovi objavljeni u tiskanoj publikaciji.</p>
+              
+              <p>Sudjelovala je na grupnoj izložbi „Ja sam...“ u Krku (2018.), a 2019. godine predstavila se prvom samostalnom izložbom INNER LAND(e)SCAPES u zagrebačkoj café galeriji Lav. Godine 2021. njezine radove objavljuje berlinska agencija Beex Project u publikaciji Make it Red. Serija Homecoming – inspirirana festivalom Burning Man i osobnim doživljajem pustinje – predstavljena je na dvije samostalne izložbe: u galeriji Botaničar (Zagreb, 2022.) te u Kući dubašljanske baštine u Malinskoj na otoku Krku (2023.).</p>
+              
+<p>Osim kroz izložbe, njezin rad prepoznat je i kroz niz objava u renomiranim regionalnim online publikacijama. Putopisne priče i fotografije s otoka Socotre objavljene su nedavno na Vogue Adria portalu, dok je Journal.hr ove godine predstavio njezin vizualni i tekstualni dojam putovanja kroz Saudijsku Arabiju. Proteklih godina, fotografije i autorski tekst o festivalu Burning Man objavljeni su na portalima Super1 i Buro Srbija, a Grazia Hrvatska posvetila je njezinom radu zaseban fotografski profil.</p>
+              
+<p>U fokusu njezina rada nalaze se prostor, unutarnja stanja i krajolik kao mjesto susreta vanjskog i unutarnjeg svijeta. <br>
+<br>
+Njezine radove možete pogledati na sljedećim web stranicama:<br>
+ <a href="https://www.endlesssomewheres.com/">www.EndlessSomewheres.com</a><br>
+
+
+ <a href="https://www.instagram.com/makinight/">www.instagram.com/makinight/</a><br>
+<br>
+Kontakt:<br>
+marina328@gmail.com<br>
++385 (0)91 547 5541</p>
+            	
+</article>
+</div>  
+</div>
+        
+        <div class="ym-wrapper">
+		<div class="ym-wbox">
+			
+	<section class="ym-grid linearize-level-2">
+        
+          <div class="baguetteBoxOne gallery">
+            <h4>
+            Otvorenje izložbe - Homecoming - Burning Man</h4>
+			<br>
+
+                
+            
+                 <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (47).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (47).jpg" alt="" width="300">
+            </a>
+              
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (53).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (53).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (58).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (58).jpg" alt="" width="300">
+            </a>
+              
+           
+                <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (57).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (57).jpg" alt="" width="300">
+            </a>
+              
+              
+                <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (59).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (59).jpg" alt="" width="300">
+            </a>
+            
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (45).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (45).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (48).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (48).jpg" alt="" width="300">
+            </a>
+              
+               
+        
+                 <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (16).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (16).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (51).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (51).jpg" alt="" width="300">
+            </a>
+              
+              
+                  <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (17).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (17).jpg" alt="" width="300">
+            </a>
+        
+              
+                <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (56).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (56).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (14).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (14).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (60).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (60).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (91).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (91).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (20).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (20).jpg" alt="" width="300">
+            </a>
+              
+               
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (2).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (2).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (3).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (3).jpg" alt="" width="300">
+            </a>
+              
+            <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (4).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (4).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (5).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (5).jpg" alt="" width="300">
+            </a>
+              
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (6).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (6).jpg" alt="" width="300">
+            </a>
+              
+              
+                 <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (7).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (7).jpg" alt="" width="300">
+            </a>
+              
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (9).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (9).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (18).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (18).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (19).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (19).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (21).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (21).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (96).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (96).jpg" alt="" width="300">
+            </a>
+              
+              
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (2).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (2).jpg" alt="" width="300">
+            </a>
+             
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (25).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (25).jpg" alt="" width="300">
+            </a>
+              
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (26).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (26).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (28).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (28).jpg" alt="" width="300">
+            </a>
+              
+              
+                <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (30).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (30).jpg" alt="" width="300">
+            </a>
+              
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (31).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (31).jpg" alt="" width="300">
+            </a>
+              
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (35).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (35).jpg" alt="" width="300">
+            </a>
+              
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (34).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (34).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (35).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (35).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (37).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (37).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (38).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (38).jpg" alt="" width="300">
+            </a>
+              
+              
+              
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (39).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (39).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (68).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (68).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (69).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (69).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (70).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (70).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (73).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (73).jpg" alt="" width="300">
+            </a>  
+              
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (71).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (71).jpg" alt="" width="300">
+            </a>  
+            
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (74).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (74).jpg" alt="" width="300">
+            </a>  
+              
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (62).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (62).jpg" alt="" width="300">
+            </a>  
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (64).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (64).jpg" alt="" width="300">
+            </a>  
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (76).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (76).jpg" alt="" width="300">
+            </a>  
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (83).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (83).jpg" alt="" width="300">
+            </a>  
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (78).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (78).jpg" alt="" width="300">
+            </a>  
+              
+                <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (87).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (87).jpg" alt="" width="300">
+            </a>  
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (88).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (88).jpg" alt="" width="300">
+            </a>  
+              
+                 <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (90).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (90).jpg" alt="" width="300">
+            </a>
+              
+             
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (93).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (93).jpg" alt="" width="300">
+            </a>  
+              
+
+              
+              <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (84).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (84).jpg" alt="" width="300">
+            </a>  
+              
+              
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (85).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (85).jpg" alt="" width="300">
+            </a>  
+              
+              
+              
+              
+                <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (46).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (46).jpg" alt="" width="300">
+            </a>  
+            
+               <a href="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (42).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Marina Benković/otvorenje izložbe/Marina otvorenje (42).jpg" alt="" width="300">
+            </a>  
+              
+               
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+        </div>
+        
+							
+							
+        <p> Autor fotografija: <em>Ermano Bančić i Drago Filić</em></p> 
+        
+   
+		  </section>
+            
+            
+        
+		  
+	  </div>
+  </div>
+        
+        
+        
+</main>
+          
+    
+    <a href="#" id="backToTop" class="back-to-top">↑ Natrag na vrh</a>  
+    
+<footer id="bottom">
+	<div class="ym-wrapper">
+        
+		<div class="ym-wbox">
+			<p>© 2025 - CVU Batana - Foto klub <br> 
+				
+			
+		  Urednik web stranice: <a href="https://kristijanbancic.github.io/Still-Photographer/"><em>Kristijan Bančić </em></a></p>
+				<br>
+				Layout is based on <a href="http://www.yaml.de">YAML<br></a>
+
+	  </div>
+	</div>
+</footer>
+             
+    
+      <script>
+		window.onload = function() {
+			baguetteBox.run('.baguetteBoxOne');
+			baguetteBox.run('.baguetteBoxTwo');
+			baguetteBox.run('.baguetteBoxThree', {
+				animation: 'fadeIn',
+				noScrollbars: true
+			});
+			baguetteBox.run('.baguetteBoxFour', {
+				buttons: false
+			});
+			baguetteBox.run('.baguetteBoxFive', {
+				captions: function(element) {
+					return element.getElementsByTagName('img')[0].alt;
+				}
+			});
+
+			if (typeof oldIE === 'undefined' && Object.keys) {
+				hljs.initHighlighting();
+			}
+
+			var year = document.getElementById('year');
+			year.innerText = new Date().getFullYear();
+		};
+
+	</script>
+    
+    
+             <script>
+function smoothScrollTo(target, duration = 1200) {
+    const element = document.querySelector(target);
+    if (!element) return;
+
+    const start = window.pageYOffset;
+    const end = element.offsetTop;
+    const distance = end - start;
+    const startTime = performance.now();
+
+    function animation(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const ease = progress * (2 - progress);
+        window.scrollTo(0, start + distance * ease);
+        if (progress < 1) requestAnimationFrame(animation);
+    }
+
+    requestAnimationFrame(animation);
+}
+
+// Back to top functionality
+const backBtn = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        backBtn.classList.add("show");
+    } else {
+        backBtn.classList.remove("show");
+    }
+});
+
+backBtn.addEventListener("click", function(e) {
+    e.preventDefault();
+    smoothScrollTo("body", 1200);
+});
+</script>
+    
+    
+        <script>
+function handleSearch() {
+    const query = document.getElementById("searchInput").value.trim().toLowerCase();
+
+    if (!query) {
+        alert("Molimo unesite ime autora ili naziv izložbe za pretraživanje.");
+        return;
+    }
+
+    /* ==========================
+       LISTS OF KEYWORDS PER YEAR
+       (Edit these for your content!)
+    =========================== */
+
+    const arhiva2025_keywords = [
+        "kruno", "sudec", "kruno sudec", "istarsko sazvježđe", "karmen", "orlić", "karmen orlić", "denis", "gržetić", "denis gržetić", "fotografija i osjetilna prisutnost", "marina", "benković", "homecoming", "burning man"
+    ];
+
+    const arhiva2024_keywords = [
+        "kiki", "naslov izložbe", "proton", "naslov izložbe2", "mala", "mali", "naslo izložbe3" 
+    ];
+
+    /* ==========================
+       CHECK MATCH & REDIRECT
+    =========================== */
+
+    // Look in 2025 first
+    if (arhiva2025_keywords.some(k => query.includes(k))) {
+        window.location.href = "arhiva 2025.html?search=" + encodeURIComponent(query);
+        return;
+    }
+
+    // Look in 2024
+    if (arhiva2024_keywords.some(k => query.includes(k))) {
+        window.location.href = "arhiva 2024.html?search=" + encodeURIComponent(query);
+        return;
+    }
+
+    /* ==========================
+       NOTHING FOUND
+    =========================== */
+
+    alert("Nema rezultata za: " + query);
+}
+</script>
+
+<!-- full skip link functionality in webkit browsers -->
+<script src="js/baguetteBox.js" async></script>
+<script src="../yaml/core/js/yaml-focusfix.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CVU - BATANA &ndash; Foto klub - galerija</title>
+
+    <!-- Mobile viewport optimisation -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- (en) Add your meta data here -->
+	<!-- (de) Fuegen Sie hier ihre Meta-Daten ein -->
+
+	<link href="./css/flexible-grids.css" rel="stylesheet" type="text/css"/>
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+    <link href="css/baguetteBox.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+		body {
+			background-image: url(#);
+			margin: 0;
+		}
+
+		
+		
+		.gallery {
+			text-align: center;
+            
+		}
+
+		.content {
+			max-width: 1600px;
+			margin-top: 100px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: auto;
+
+		}
+
+		.gallery:after {
+			content: '';
+			display: block;
+			height: 2px;
+			margin: .5em 0 1.4em;
+
+		}
+
+		.gallery img {
+            
+
+			height: 100%;
+            width: auto;
+		}
+
+		.gallery a {
+            
+            
+
+			margin-bottom: 30px;
+			transition: 0.2s ease-in-out;
+		}
+
+		.gallery a:hover {
+			transform: scale(1.05);
+			box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+		}
+
+		.gallery a {
+			width: px;
+			height: 250px;
+			display: inline-block;
+			overflow: hidden;
+			margin: 4px 6px;
+			box-shadow: 0 0 4px -1px #000;
+
+		}
+    </style>
+	<!--[if lte IE 7]>
+	<link href="../yaml/core/iehacks.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+
+
+	<!--[if lt IE 9]>
+	<script src="../lib/html5shiv/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+
+<header>
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+		  <h1> <img src="img/logovi/Batana_SIGN-transperet.png" width="100" height="100" alt="batanalogo"/> <strong>CVU - BATANA</strong></h1>
+		  <h2>Centar  vizualnih  umjetnosti  „Batana“ Rovinj
+		    &nbsp;</h2>
+		  <h2>Centro arti visive  „Batana“ Rovigno</h2>
+      </div>
+	</div>
+</header>
+	
+<nav id="nav">
+  <div class="ym-wrapper">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <!-- Mobile toggle button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent1"
+              aria-controls="navbarSupportedContent1"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar container -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+        <!-- LEFT SIDE MENU -->
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="flexible-grid2testdonacije.html">Novosti</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">O nama</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="150 rovinjke fotografije.html">150 godina rovinjske fotografije</a>
+              <a class="dropdown-item" href="uprava.html">Uprava</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="partneri.html">Partneri</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown2"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Arhiva</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item active" href="arhiva 2025.html">Arhiva 2025</a>
+              <a class="dropdown-item" href="arhiva 2024.html">Arhiva 2024</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Aktivnosti</a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="fotoizleti.html">Foto izleti</a>
+              <a class="dropdown-item" href="radionice.html">Radionice</a>
+              <a class="dropdown-item" href="predavanja.html">Predavanja</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://cvu-batana-galerija.likesyou.org/">Forum</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+          </li>
+
+        </ul>
+
+        <!-- RIGHT SIDE: SEARCH + ARHIVA + DONATE -->
+        <form class="form-inline my-2 my-lg-0" onsubmit="event.preventDefault(); handleSearch();">
+
+          <input id="searchInput" class="form-control mr-2"
+                 type="search" placeholder="Pretraži naziv izložbe" aria-label="Pretraži">
+
+          <button class="btn btn-outline-success mr-2" type="submit">
+            Pretraži
+          </button>
+
+          <a href="arhiva 2025.html" class="btn btn-outline-primary mr-2">
+            Arhiva autorskih izložbi 2025
+          </a>
+
+          <!-- Donate button -->
+          <a href="donacije.html" class="donate-btn">
+            <img src="img/PayPal donacijeHR2.png" alt="Doniraj">
+          </a>
+
+        </form>
+
+      </div>
+    </nav>
+
+  </div>
+
+</nav>
+<main>
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+			
+			
+			
+<p>&nbsp;</p>
+<p><img src="img/Arhiva 20025/Kruno Sudec/zvjezdarnica višnjan.jpg" alt="" width="500" class="float-right bordered rounded img-fluid"/></p>
+            
+            <!-- BEGINNING OF MAIN ARTICLE -->
+            <section id="uvod">
+		  <h4>Istarsko sazvježđe <br>
+ Costellazione istriana / 18.10. - 16.11. 2025.
+									  <br>
+</h4><br>
+
+			
+		  <article id="full article1"> 
+			  
+<p>Većina ljudi barem jednom u životu osjeti želju otputovati i započeti sve ispočetka. Oni koji se odvaže na takav poduhvat dobrovoljno ili iz neke nužnosti, ako se usput ne izgube, vrate se bogatiji iskustvom i doživljenim. Ova univerzalna ideja stara je barem koliko i epska putovanja iz drevnih legenda o Odiseju, Jasonu i Argonautima, planini Kailash...</p>
+			  
+ <p>Za svoje putovanje i nov početak Kruno Sudec odabrao je Istru. Na izložbi Istarsko sazvježđe podijelio je s nama svoje iskustvo s lutanja Istrom kroz prošlo desetljeće. Radoznalost i potreba za slobodnim izrazom potaknuli su autora na istraživanje novih motiva, snimljenih spontano i nepretenciozno, upravo onako kako je nekoć pristupao fotografiji kada je započeo učiti ovu vještinu. Kasnije, kada je uređivao knjige, uparivao je i montirao svoje i fotografije drugih autora na stranicama stvarajući tako male narative, “stripove”. Bio je to period njegove profesionalne specijalizacije – tehničkog fotografiranja kulturnog nasljeđa, dugih priprema za terenska snimanja i još napornije postprodukcije. Taj posao doveo ga je do visokog stupnja vještine, ali i potrebe za promjenom i odmakom od profesionalne rutine. Poželio je izaći iz naučenih obrazaca, osloboditi se kontrole i perfekcionizma.</p>
+			  
+<p>Tako je Kruno Sudec bar jednom godišnje u Istri snimao svima poznate motive, ali i tražio nove slojeve i spontane trenutke uživajući u laganoj svakodnevici i magičnosti poluotoka. Već prethodno posjećenim lokacijama svake bi godine dodavao nove sve do 2019. godine, snimajući sve više polaroida.</p>
+			  
+<p>O tehnici izvedbe fotografija za izlaganje u galeriji CVU Batana, odlučile u tehnološke karakteristike materijala, prije svega postojanost snimljenih materijala, pa se kao optimalno rješenje pokazao Fuji Instax wide materijal. Rad sa instant materijalom (snimanje ili printanje), razlikuje se prilično mnogo od rada sa digitalnim aparatima. Ovo najbolje opisuje izjava američke glazbenice i pjesnikinje Patti Smith, posebno sklone snimanju polaroidima: <br></p>
+<p>&bdquo;<em>Polaroid vas po svojoj prirodi čini štedljivim. Hodate okolo s možda dva paketa filma u džepu. <br>
+          Imate 20 snimaka, tako da je svaki snimak cijeli svijet</em>.&ldquo;</p>
+    
+<p>Putovanje kroz Istru oblikovalo je autorovu kolekciju narativa u osamdesetak minijatura (četrdeset parova), a inspiriran radovima suvremenih fotografa (Hiroshi Sugimoto, William Eggleston, Luigi Ghirri) pronašao je vlastiti izraz, izgradio vlastitu poetiku i likovni jezik, uživajući u samom procesu.</p>
+    
+<p>Fotografije Kruna Sudeca tematiziraju prolazak vremena i osjećaj čežnje koristeći kompozicijska rješenja koja balansiraju figurativno i apstraktno, realno i imaginarno, te potiču na kritičku refleksiju o onome što se nalazi “s druge strane” slike. Vizualni simboli, narativne strukture i slojeviti prostorni planovi dosljedno su utkani u kolekciju, dok promišljena upotreba teksture i svjetla doprinosi snažnoj emotivnosti.</p>
+			  
+			  <p>Motivi poput mora, kovane ograde, metalnog ljiljana, prozora, vrata, oblaka i mačaka imaju centralnu simboličku ulogu i često su postavljeni unutar asocijativnog konteksta. Teksturalni elementi nose snažnu simboliku materijalne dekadencije i vremena koje prolazi – primjerice <em>Ogoljela kovana ograda nagrižena morskom solju i njena sjena</em> čuvaju ulaz u dvorište napuštene vile nasuprot rajskog otočja.</p>
+			  
+			  <p>Stari motor parkiran ispred zatvorenog portuna asocira na prizore ulaza u provincijska kina iz zlatnog perioda talijanskog neorealizma kojeg karakteriziraju izrazita upotreba autentične lokacije, tragovi propadanja, jednostavni materijali, te atmosfera napuštenosti ili socijalne introspekcije, dok drugi upareni polaroid prikazuje interijer crkve gdje su postavljena sjedišta iz kina uz stare klupe. Prizori su snimljeni na različitim lokacijama i rekontekstualizirani. Obje fotografije postaju simboli nekadašnjih mondenih trendova i živosti svakodnevnog života radnika i siromašnih ali i izazivaju tjeskobu i osamljenost u već dugo socijalno napuštenim prostorima. Zidovi se promatraju kao palimpsesti, podržavajući motiv sjećanja i dokaz bogate slojevitosti kulturnog prostor-vremena utisnutih u materijal.</p>
+			  
+			 <p> Na paru fotografija „Stopalo u i na kamenu“ izražena je pareidolija — fenomen koji omogućuje ljudskom umu da pronađe prepoznatljive i simboličke oblike u slučajnim, prirodnim strukturama, čime se prirodni elementi pretvaraju u vizualne asocijacije na stvarne predmete ili bića. Kamen s tamnim udubljenjem podsjeća na otisak stopala, a uz to je prikazana i stvarna cipela, dodatno naglašavajući sličnost.</p>
+
+<p>Tehnika refleksije i atmosferske slojevitosti vidljiva je kroz vodena zrcala i odraze u prozorima, primjerice u prizoru gdje se nebo zrcali u prozoru stare crkve i palače, ili dvije lokve koje stvaraju paralelni svijet unutar scene. Takva poigravanja s granicom između stvarnog i virtualnog unose element mističnosti i otvaraju prostor metaforičkom čitanju scene – vrata i prozori postaju simbol nematerijalnih prijelaza, a ne konkretnih granica prostora.</p>
+			  
+			  <p>Kompozicijski planovi i slojeviti prostorni odnosi prepoznaju se u scenama gdje je često dominantan duboki plan. U prednjem planu – ograda, vrata, motor, mačka, križ – dok pozadina sadrži bogate prostorne i narativne elemente – oblake, grad. Plitki planovi rezervirani su za portrete životinja, grafema simbola ili predmeta, gdje se stječe intimniji dojam.</p>
+			  
+		    <p>Panoramski planovi šire kadar na cijele urbane ili pejzažne strukture, primjerice “Oblak vuče svoj rep iznad ostataka starog Momjana” ili “Proljeće i jesen u Boljunu”.</p>
+			  
+			  <p> Spoj likovnih elemenata, kompozicijske asimetrije, kontrasta i simbolike stvara slojevit, višeznačan narativ koji promatraču omogućava da se kroz fotografiju kreće između dva vremena i dvaju svjetova, produbljujući osjećaj povezanosti s prošlošću, sadašnjošću i imaginarnim prostorima. Kompozicija je najčešće asimetrična, naglašena kontrastima između svjetla i tame, starog i novog, figurativnog i apstraktnog. Dijagonalna usmjerenja elemenata, rep oblaka ili stub srama “u pokretu”, pojačavaju dramatičnost.</p>
+			 
+              <p> Perspektiva je često narativna i metaforička: vrata i prozori, iako fizički prisutni, vode u unutrašnje svjetove, sugerirajući prijelaze identiteta i sjećanja (<em>Između dva vremena, kiše i sunca kao između dva svijeta</em>).</p>
+              
+<p>Primjeri fragmentiranih kadrova (slojevi prozora unutar bazilike, granice između svjetova) dodatno naglašavaju motiv razlomljenih identiteta i prolaznosti uspomena. Iscjepkanost kadra reflektira podijeljene, sjetne naracije, a elementi poput izostavljenih dijelova (<em>Vrata iza vrata“, stubišta od negdje do nigdje</em>) ostavljaju prostor za sloj sjećanja i osobnu interpretaciju.</p>
+			  
+  <p>Neposredno nakon što je Kruno Sudec odabrao osamdesetak fotografija za izložbu u galeriji CVU Batana, pažljivo se zaustavio pred snimkom zvjezdarnice i megalita, uparenim na radnom stolu, označivši trenutak punog kruga epohe koja se polako približava završetku. Oči, ispunjene pitanjima, uprte su prema zvijezdama, dok svijet oko njega pokazuje znakove nepovratnih promjena, onih koje se odvijaju znatno brže nego u doba kad su ljudi uspravljali kamenje i pogledom tražili odgovore na nebu. Na radnoj površini polako razvrstava polaroid fotografije s motivima zvijezda. Okruglim markerom označava na karti Istre sva mjesta na kojima su snimljene fotografije, potom se udalji kako bi pogledom obuhvatio cijeli poluotok kojim je putovao proteklih desetak godina. Obogaćen iskustvima, sjećanjima, vlastitim identitetom i sviješću o prolaznosti, Sudec prepoznaje u toj putanji vlastitu istarsku epsku avanturu – jedno sasvim novo, još nepoznato sazvježđe.</p>
+
+	
+<p> Autor teksta: <em>Lavoslava Benčić</em></p> 
+              
+            </article>
+              
+          </section>
+		
+</div>  
+  </div>
+  
+        
+
+</main>
+    
+      <!-- Novi dio članka -->
+    <main>
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+			
+			
+			
+<img src="img/Arhiva 20025/Kruno Sudec/mačke i zvijezde.jpg" alt="" width="500" class="float-right bordered rounded img-fluid"/>
+			
+<h4>Mačke (i) Zvjezde <br>
+ Gatti (e) Stelle
+									  <br>
+</h4>
+			
+		  <article>
+			  
+			  <p>Prvobitno čovjekovo zadiranje u prostor potaknuto je zadovoljenjem nekih osnovnih ljudskih potreba. S vremenom to zadiranje biva oplemenjeno i drugim svrhama. Potrebom da se iskaže štovanje nadnaravnoga ili neobjašnjivoga, na primjer. Sve do stupnja kada jedina svrha takva upletanja postaje postizanje čiste estetske ugode.</p>
+              
+		      <p>Vještom i strpljivom oku kao da se riznica vizualnih užitaka u potpunosti otkriva tek kada se tvorca ili korisnika oblikovanoga prostora iz njega upadljivo izmakne. Još kada mu se dopusti da se usredotoči na mitsku i mističnu zemlju Istru, takvo oko i najmanju podrobnost može posredovati kao raskoš.</p>
+                  
+	 <p>Meditativni polaroidi Krune Sudeca sugeriraju da su ljudi s prostora Savičente, Bala, Boljuna, Momjana, Draguča, Roča, Saleža ili Kringe otišli na kolektivni godišnji odmor. Ili možda napustili sam planet. Sudec, međutim, ne propušta predstaviti nam rasu mogućih novih baštinika napuštena svijeta. Onu koja nije uskočila u ljudske čizme samo da bi nastavila istim putem. S nama još od vremena prije faraona i predobro nas poznavajući, mačke ne ponavljaju našu pogrešku da traže svrhovitost u svemu što vide. Potraga za svrhovitošću poremećaj svojstven je isključivo ljudima. Mačke na ovim fotografijama izgledaju kao da su upravo one pristigle iz svemira; da umire, izliječe, poprave ono što je čovjek u svojoj dionici povijesti uspio poremetiti. One djeluju kao mudraci i čuvari prostora. Možda i kao prisvojitelji tuđih sjećanja, odajući dojam kao da ljudi u istarskim ambijentima od fotografova interesa nisu ni postojali. Ili da je tomu bilo davno. Da su tu jedino mačke i zvijezde postojane, sa svime oko sebe i među sobom od pamtivijeka u suglasju. Moguće da te mačke crpe više spoznaja o ljudskoj prirodi iz fotografova uređaja nego iz artefakata koje je čovjek ostavio.</p>
+         
+<p>Mačke kao da se na ovim polaroidima i ne trude predstavljati u svojemu najboljem svjetlu. No, fotografovovo majstorsko posredovanje uspijeva za promatrača od njih izvući najbolje, pretvarajući ih u istinske zvijezde. Svaka slika ili fotografija koju vidimo, nas ljude mijenja. Na bolje, utvaram si. Mačke mijenjaju svaku fotografiju u kojoj se zateknu. Na bolje, uvjeren sam.</p>
+
+<p>A čak i kada se same ne nalaze na polaroidima, autor svojom umješnoću stvara dojam da su upravo one s druge strane objektiva, a ne on.</p>
+<p>Neće nas suditi po tome što smo bili. Već po tome što smo ostavili mačkama.</p>
+	
+<p> Autor teksta: <em>Siniša Kolarić</em></p>
+<p>&nbsp;</p>
+              
+              
+              <!-- BEGINNING OF BIOGRAPHY SECTION -->
+              <section id="biografija">
+              
+              
+              <h6><strong>Biografja:            <img src="img/Arhiva 20025/Kruno Sudec/Kruno Sudec - životopis.jpg" alt="" width="213" height="220" class="float-left bordered"/><em>Kruno Sudec</em><br>
+              </strong></h6>
+<p>Fotograf, novinar i arhivist. </p>
+<p>Fotografira od osamdesetih godina prošlog vijeka. Danas se profesionalno bavi digitalizacijom arhivske građe, uređuje knjige i fotografira polaroidima ili digitalno. Priprema kataloge, dizajnira i postavlja izložbe drugih autora. </p>
+          <p>Fotografije su mu izlagane na samostalnim i skupnim izložbama, a mnogo više objavljivane u brošurama, časopisima, stručnim publikacijama koje se bave kulturnom baštinom i monografijama. Koautor je dvije fotomonografije o srednjevjekovnim utvrdama. </p>
+          <p>Nagrađivan.  Redovni je član CVU Batana u Rovinju.</p>
+          <p>&nbsp;</p>
+          
+              </section>
+              	</article>
+		</div>  
+  </div>
+        
+        <div class="ym-wrapper">
+		<div class="ym-wbox">
+			
+	<section class="ym-grid linearize-level-2">
+        
+          <div class="baguetteBoxOne gallery">
+            <h4>
+            Otvorenje izložbe - Istarsko sazvježđe</h4>
+			<br>
+
+                
+            
+              
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (1).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (1).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (47).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (47).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (2).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (2).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (3).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (3).jpg" alt="" width="300">
+            </a>
+              
+                  <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (4).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (4).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (5).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (5).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (6).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (6).jpg" alt="" width="300">
+            </a>
+              
+                 <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (8).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (8).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (9).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (9).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (10).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (10).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (12).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (12).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (13).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (13).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (14).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (14).jpg" alt="" width="300">
+            </a>
+              
+        
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (15).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (15).jpg" alt="" width="300">
+            </a>
+              
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (16).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (16).jpg" alt="" width="300">
+            </a>
+              
+              
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (53).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (53).jpg" alt="" width="300">
+            </a>
+              
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (17).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (17).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (18).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (18).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (20).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (20).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (21).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (21).jpg" alt="" width="300">
+            </a>
+              
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (22).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (22).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (23).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (23).jpg" alt="" width="300">
+            </a>
+              
+                 <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (24).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (24).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (25).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (25).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (26).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (26).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (28).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (28).jpg" alt="" width="300">
+            </a>
+              
+              
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (29).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (29).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (30).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (30).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (33).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (33).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (54).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (54).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (56).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (56).jpg" alt="" width="300">
+            </a>
+              
+                   <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (57).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (57).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (45).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (45).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (38).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (38).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (48).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (48).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (49).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (49).jpg" alt="" width="300">
+            </a>
+              
+              
+              
+                 <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (20).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (20).jpg" alt="" width="300">
+            </a>
+              
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (50).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (50).jpg" alt="" width="300">
+            </a>
+
+            
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (51).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (51).jpg" alt="" width="300">
+            </a>
+              
+                 <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (58).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (58).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (59).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (59).jpg" alt="" width="300">
+            </a>
+              
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (60).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (60).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (39).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (39).jpg" alt="" width="300">
+            </a>
+              
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (40).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (40).jpg" alt="" width="300">
+            </a>
+              
+                <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (43).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (43).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (44).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (44).jpg" alt="" width="300">
+            </a>
+              
+               <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (46).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (46).jpg" alt="" width="300">
+            </a>
+              
+              <a href="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (32).jpg" data-caption="">
+                <img src="img/Arhiva 20025/Kruno Sudec/otvorenje izložbe/otvorenje izložbe Kruno (32).jpg" alt="" width="300">
+            </a>
+              
+             
+              
+        </div>
+        
+							
+							
+        <p> Autor fotografija: <em>Ermano Bančić i Drago Filić</em></p> 
+        
+   
+		  </section>
+            
+            
+        
+		  
+	  </div>
+  </div>
+        
+       </main>       
+              
+         
+          <a href="#" id="backToTop" class="back-to-top">↑ Natrag na vrh</a>  
+            
+<footer id="bottom">
+	<div class="ym-wrapper">
+        
+		<div class="ym-wbox">
+			<p>© 2025 - CVU Batana - Foto klub <br> 
+				
+			
+		  Urednik web stranice: <a href="https://kristijanbancic.github.io/Still-Photographer/"><em>Kristijan Bančić </em></a></p>
+				<br>
+				Layout is based on <a href="http://www.yaml.de">YAML<br></a>
+
+	  </div>
+	</div>
+    
+ 
+   
+
+
+</footer>
+            
+      <script>
+		window.onload = function() {
+			baguetteBox.run('.baguetteBoxOne');
+			baguetteBox.run('.baguetteBoxTwo');
+			baguetteBox.run('.baguetteBoxThree', {
+				animation: 'fadeIn',
+				noScrollbars: true
+			});
+			baguetteBox.run('.baguetteBoxFour', {
+				buttons: false
+			});
+			baguetteBox.run('.baguetteBoxFive', {
+				captions: function(element) {
+					return element.getElementsByTagName('img')[0].alt;
+				}
+			});
+
+			if (typeof oldIE === 'undefined' && Object.keys) {
+				hljs.initHighlighting();
+			}
+
+			var year = document.getElementById('year');
+			year.innerText = new Date().getFullYear();
+		};
+
+	</script>
+    
+    
+               <script>
+function smoothScrollTo(target, duration = 1200) {
+    const element = document.querySelector(target);
+    if (!element) return;
+
+    const start = window.pageYOffset;
+    const end = element.offsetTop;
+    const distance = end - start;
+    const startTime = performance.now();
+
+    function animation(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const ease = progress * (2 - progress);
+        window.scrollTo(0, start + distance * ease);
+        if (progress < 1) requestAnimationFrame(animation);
+    }
+
+    requestAnimationFrame(animation);
+}
+
+// Back to top functionality
+const backBtn = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        backBtn.classList.add("show");
+    } else {
+        backBtn.classList.remove("show");
+    }
+});
+
+backBtn.addEventListener("click", function(e) {
+    e.preventDefault();
+    smoothScrollTo("body", 1200);
+});
+</script> 
+            
+           
+              
+          <script>
+function handleSearch() {
+    const query = document.getElementById("searchInput").value.trim().toLowerCase();
+
+    if (!query) {
+        alert("Molimo unesite ime autora ili naziv izložbe za pretraživanje.");
+        return;
+    }
+
+    /* ==========================
+       LISTS OF KEYWORDS PER YEAR
+       (Edit these for your content!)
+    =========================== */
+
+    const arhiva2025_keywords = [
+        "kruno", "sudec", "kruno sudec", "istarsko sazvježđe", "karmen", "orlić", "karmen orlić", "denis", "gržetić", "denis gržetić", "fotografija i osjetilna prisutnost", "marina", "benković", "homecoming", "burning man"
+    ];
+
+    const arhiva2024_keywords = [
+        "kiki", "naslov izložbe", "proton", "naslov izložbe2", "mala", "mali", "naslo izložbe3" 
+    ];
+
+    /* ==========================
+       CHECK MATCH & REDIRECT
+    =========================== */
+
+    // Look in 2025 first
+    if (arhiva2025_keywords.some(k => query.includes(k))) {
+        window.location.href = "arhiva 2025.html?search=" + encodeURIComponent(query);
+        return;
+    }
+
+    // Look in 2024
+    if (arhiva2024_keywords.some(k => query.includes(k))) {
+        window.location.href = "arhiva 2024.html?search=" + encodeURIComponent(query);
+        return;
+    }
+
+    /* ==========================
+       NOTHING FOUND
+    =========================== */
+
+    alert("Nema rezultata za: " + query);
+}
+</script>
+            
+        <!-- sadržaj stranice -->
+  ...
+  <a href="#" id="topBtn" class="back-to-top">Natrag na vrh ↑</a>
+
+  <!-- Smooth Scroll Script -->
+  <script>
+  function smoothScrollTo(target, duration = 1200) {
+    const element = document.querySelector(target);
+    if (!element) return;
+
+    const start = window.pageYOffset;
+    const end = element.offsetTop;
+    const distance = end - start;
+    const startTime = performance.now();
+
+    function animation(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+
+      // easing (smooth effect)
+      const ease = progress * (2 - progress);
+
+      window.scrollTo(0, start + distance * ease);
+
+      if (progress < 1) requestAnimationFrame(animation);
+    }
+
+    requestAnimationFrame(animation);
+  }
+
+  // Scroll to top button
+  document.getElementById("topBtn").addEventListener("click", function (e) {
+    e.preventDefault();
+    smoothScrollTo("body", 1200);
+  });
+  </script>
+  
+
+
+<!-- full skip link functionality in webkit browsers -->
+<script src="js/baguetteBox.js" async></script>
+<script src="../yaml/core/js/yaml-focusfix.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
